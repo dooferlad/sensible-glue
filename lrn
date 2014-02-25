@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+# Copyright 2013 Linaro Ltd.  This software is licensed under the
+# GNU General Public License version 3 (see the file COPYING).
+
+
+import sys
+from commands.commands import CIJobRuntime
+
+
+def usage():
+    print "Usage: lrn [module] [command] [functions] [command arguments]"
+
+if __name__ == "__main__":
+    CIJobRuntime(sys.argv[1:])

@@ -1,0 +1,5 @@
+echo Hello
+Hello
+ci_lava_target_machine 3: echo $?
+0
+ci_lava_target_machine 4: 
